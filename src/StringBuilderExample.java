@@ -1,0 +1,27 @@
+public class StringBuilderExample {
+    public static void main(String[] args) {
+
+        String text = "Ana are mere";
+        String result = "";
+
+        result += "mere";
+        System.out.println(result);
+        result += " are ";
+        System.out.println(result);
+        result += "Ana";
+        System.out.println(result);
+
+        StringBuilder result2 = new StringBuilder();
+        result2.append("Ana");
+        System.out.println(result2);
+        result2.append("mere");
+        System.out.println(result2);
+        result2.insert(3," are ");
+        System.out.println(result2);
+
+
+
+
+
+    }
+}
